@@ -12,5 +12,6 @@ public class Basic3 {
 		System.out.println(10+20);
 		System.out.println(100*2);
 		System.out.println(true==false);
+		System.out.println(false==false);
 	}
 }
