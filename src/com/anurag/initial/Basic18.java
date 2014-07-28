@@ -4,6 +4,11 @@ package com.anurag.initial;
  * @author Anurag
  * 
  * concept : if method return other than void return statement is mandatory
+ * 
+ * Output:- 
+ *     test
+ *	   10
+ *        
  */
 public class Basic18 {
 	static int test(){
