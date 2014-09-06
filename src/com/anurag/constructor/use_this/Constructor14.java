@@ -1,6 +1,15 @@
 package com.anurag.constructor.use_this;
 
+/**
+ * @author Anurag
+ *    
+ *    Concept:-
+ *           ByDefault only specific Constructor is executing we can create any number of object in one
+ *           Constructor .Constructor is one of the non static initializer in non static member. 
+ */
 public class Constructor14 {
+	
+	
 	Constructor14(){
 		System.out.println("Constructor14()");
 	}
