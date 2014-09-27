@@ -1,4 +1,4 @@
-package com.anurag.inheritance;
+package com.anurag.inheritance.staticinheritance;
 /**
  *  @author Anurag
  *  
