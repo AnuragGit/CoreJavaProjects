@@ -1,0 +1,28 @@
+Converting one datatype to another datatype  is knows as casting.
+There are two type of casting.
+1.primitive casting
+2.derived casting.
+
+1.primitive casting:-  
+
+                  converting one numeric primitive to another numeric primitive .
+                  
+2.Derived casting:-  
+               
+                    Converting one derived data type to another derived data type which are
+                    same hierarchy , same type and same inheritance.
+                    
+ Primitive Casting:-
+ 
+             There are also two types:
+             
+             a) Auto widening 
+             b) Explicit narrowing
+             
+      a) Auto widening :-   
+      
+                    byte< short < int < long < float < double 
+                    
+                    wider most is double
+                    narrow most is byte.
+         
