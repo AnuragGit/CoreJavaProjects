@@ -11,7 +11,7 @@ package com.anurag.methodoverriding;
  *          2) In a case of return type if superclass method is returning  void then
  *             subclass we have to keep return type void only so return type also must
  *             be same. 
- */
+ */ 
 
 interface MethodOverride2_base{
 	void test();
