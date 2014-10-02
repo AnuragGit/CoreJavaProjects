@@ -1,0 +1,31 @@
+
+Enum:-
+
+It is introduce a jdk1.5 . This is a keyword form Jdk1.5 onwards.
+Compiler will generate .class file for Enum also.
+
+Enum is mainly used for representing group of similar kind of fixed number of constants.
+
+ex:- 
+(1)Represent all details of  week day.
+
+(2)Represent all month name of a year.
+
+(3)To represent all available gender.
+
+(4)All available designation of particular company.  etc..
+
+Inside a enum we can incorporate any number of unique constants by using comma as a delimiters.
+
+All enum constant is unique ,duplicate constant not allowed.
+
+Every enum constant should be a valid java identifier.
+
+Every enum should have minimum one constant
+
+To manage enum constant we can choose attribute,method,sib,constructor,IIB.
+
+Enum can be develop inside class also.
+
+
+Enum constant are by default public ,static,final
