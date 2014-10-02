@@ -50,3 +50,5 @@ index                                      package
 22										com.anurag.final_keyword.method
 
 23										com.anurag.final_keyword.finalclass
+
+24										com.anurag.enumprogram
