@@ -1,0 +1,13 @@
+NonStatic Final variable:--
+----------------------------
+
+NonStatic final variable can not survive with default value. We have to initialize the explicit in 
+some of the following specific places.
+
+        1. At the declaration statement
+        
+        2. In the all Constructor
+        
+        3.In side the Only one IIB
+        
+   So among of these three we need to choose only one option.
