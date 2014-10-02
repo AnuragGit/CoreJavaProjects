@@ -11,3 +11,16 @@ some of the following specific places.
         3.In side the Only one IIB
         
    So among of these three we need to choose only one option.
+   
+   
+
+Static Final variable:-
+------------------------
+
+     static final variable also not survive  with default value.Developer has to be provide
+       explicit value in either of one options
+       
+       1. In place of declaration 
+        
+                or
+       2. In one SIB
