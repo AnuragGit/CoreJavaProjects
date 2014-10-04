@@ -1,0 +1,35 @@
+
+Static Import is a new feature added in Java 5 specification. 
+Java 5 has been around the corner for some time now, still lot of people
+ who are new in Java world doesn’t know about this feature.
+
+
+
+What is Static Import?
+
+In order to access static members, it is necessary to qualify references with 
+the class they came from. For example, one must say:
+
+double r = Math.cos(Math.PI * theta);
+or
+System.out.println("Blah blah blah");
+
+You may want to avoid unnecessary use of static class members like Math.
+ and System. For this use static import. For example above code when changed
+  using static import is changed to:
+
+import static java.lang.System.out;
+import static java.lang.Math.PI;
+import static java.lang.Math.cos;
+...
+double r = cos(PI * theta);
+out.println("Blah blah blah");
+...
+So whats the advantage of using above technique? 
+
+Only advantage that I see is readability of the code. Instead of writing name of
+ static class, one can directly write the method or member variable name.
+
+Also keep one thing in mind here. Ambiguous static import is not allowed.
+ i.e. if you have imported java.lang.Math.PI and you want to import mypackage.Someclass.PI, 
+ the compiler will throw an error. Thus you can import only one member PI.
