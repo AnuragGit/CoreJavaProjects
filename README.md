@@ -52,3 +52,12 @@ index                                      package
 23										com.anurag.final_keyword.finalclass
 
 24										com.anurag.enumprogram
+
+25										com.anurag.staticImport
+
+26										com.anurag.staticImport.pack1
+
+27										com.anurag.staticImport.pack2
+
+28										com.anurg.innerclass
+

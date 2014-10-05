@@ -1,0 +1,38 @@
+Inner Class:-
+
+         Defining a class inside another class is knows as inner class.
+         
+         two concept:-
+            1) non static member can not be use inside static block  directly ,but  by reference variable
+              we can use it.
+            
+            2)static variable can be use any where in the class.
+            
+        There are four type of inner classes 
+        
+        static inner class
+        non static inner class
+        local inner class
+        Anonymous inner class
+        
+        
+        static inner class:-  In static inner class we can able to declare static and non static both member.
+        non static inner class:- In side non static inner class we can not declare and define static member.
+        
+        So any kind of class we can declare non static member.
+        
+        
+        local inner class :- local inner class can not be declare along with access specifiers
+                             but it can be final.  
+                             
+                             1) Inside local inner class we can not define any static member but outer class
+                             static member can be use in  innerclass.
+                             
+                             2) Inside local inner class we can use only local final variable.
+                             
+                             3) local inner class is not used in outside a current definition block.
+                             
+         Anonymous inner class:- This class don't have any name. 
+        
+        
+        
