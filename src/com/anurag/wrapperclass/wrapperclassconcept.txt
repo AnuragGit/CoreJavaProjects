@@ -1,0 +1,57 @@
+Wrapper Class:-
+====================
+
+   (1) All wrapper class available inside a java.lang.package and all language package import 
+       implicit.
+    
+   (2)Every wrapper class is a final class we can not make a sub class to wrapper class.
+   
+   (3) For every primitive DataType there is a corresponding wrapper class.
+   
+   (4) In every wrapper class toString(), equals(), and hashCode() method got override.
+   
+   (5) Every wrapper class implementing Serializable  and comparable interface.
+   
+   (6) Because of serializable  interface we can write object of wrapper class into the file system.
+   
+   (7) Because of comparable interface object wrapper class can be sorted.
+   
+   
+   Primitive DataType                                Wrapper Class
+ ========================						=======================
+ 
+     byte												Byte
+     short												Short
+     int												Integer
+     long												Long
+     float												Float
+     double												Double
+     boolean											Boolean
+     char												Character
+     
+     In order to wrape primitive  content inside an Object we require wrapper classes.
+     
+     In all wrapper class their is a constructor taking in string except one wrapper class that 
+     is character.
+     
+     Formula:-
+     
+        String to Wrapper:-
+        ===================
+                        WrapperType ref= new WrapperType(String str);
+                        WrapperType ref = WrapperType.valueOf(String str);
+                        
+        Wrapper to Primitive:-
+        =====================
+        
+                         primitive type v= ref.typeValue();
+                         
+        primitive to String:-
+        ======================
+                          String str= String.valueOf(type v);
+                          String str= WrapperType.toString(v);
+                          String str= ""+v;
+        
+                  
+     
+     
