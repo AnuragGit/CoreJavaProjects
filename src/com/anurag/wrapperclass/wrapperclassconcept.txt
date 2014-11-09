@@ -41,17 +41,33 @@ Wrapper Class:-
                         WrapperType ref= new WrapperType(String str);
                         WrapperType ref = WrapperType.valueOf(String str);
                         
+                        
+         Wrapper to String:-
+         ====================
+         
+                     String str = ref.toString();
+                        
         Wrapper to Primitive:-
         =====================
         
                          primitive type v= ref.typeValue();
+                         
+         Primitive to Wrapper:-
+         ======================
+         
+                       ref=new WrapperType(v);
                          
         primitive to String:-
         ======================
                           String str= String.valueOf(type v);
                           String str= WrapperType.toString(v);
                           String str= ""+v;
+                          
+                          
+        String to primitive:-
+        ====================
         
+        v =WrapperType.ParseType(str);
                   
      
      
