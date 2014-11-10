@@ -61,3 +61,5 @@ index                                      package
 
 28										com.anurg.innerclass
 
+29									    com.anurag.wrapperclass
+

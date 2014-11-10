@@ -57,3 +57,5 @@ index                                      package
 27										com.anurag.staticImport.pack2
 
 28										com.anurg.innerclass
+
+29										com.anurag.wrapperclasss
