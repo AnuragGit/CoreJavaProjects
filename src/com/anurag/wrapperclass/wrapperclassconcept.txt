@@ -67,7 +67,39 @@ Wrapper Class:-
         String to primitive:-
         ====================
         
-        v =WrapperType.ParseType(str);
+        v =WrapperType.ParseType(str);	
+        
+        
+        Boxing & UnBoxing:-
+        ===================
+        
+                Boxing refers to the Primitive to corresponding wrapper Instance Conversion  such as 
+                int to java.lang.Integer
+                
+                Unboxing  is the Conversion of wrapper instance to primitive type such as Byte to byte.
+                
+                
+         AutoBoxing & AutoUnboxing:-
+         ==========================
+         
+               This concept come on JDk1.5 onwards . So here no need to do  explicit  boxing and 
+               unboxing , compiler it self will take care all about this.
+               
+               
+         Widdining Boxing & Upcasting:-
+         ==============================
+         
+         			In java class first happing to widdining .If widdining  not happen then Boxing is happen , 
+         			in no suitable boxing is available then Upcasting is happen.
+         			
+         			AutoWiddening
+         			
+         			Boxing
+         			
+         			Upcasting
+         			
+         			
+         
                   
      
      
