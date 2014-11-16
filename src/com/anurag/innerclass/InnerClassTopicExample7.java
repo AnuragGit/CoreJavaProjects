@@ -1,4 +1,4 @@
-package com.anurg.innerclass;
+package com.anurag.innerclass;
 
 /**
  * 
