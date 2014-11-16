@@ -1,0 +1,21 @@
+Exception Handling:-
+==========================
+             When Exception is arising the total program is terminated ,In order to handle 
+             rised exception we have to use Exception handling technique.
+             
+             
+             Abnormal 											Exception
+           ------------										------------------
+           10/0													ArithmeticException
+           
+           OutofBound							                ArrayIndexOutOfBoundsException
+           
+           using null pointer reference                         NullPointerException
+           
+           super object into subtype                            ClassCastExceptions
+           
+           While formating String Content						NumberFormatException
+           
+   
+    Throwable is a superclass  of all the Exception class and catch block take only one argument that argument should be throwable type.
+    catch should not take more than one type argument.
