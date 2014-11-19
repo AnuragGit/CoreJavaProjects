@@ -59,3 +59,9 @@ index                                      package
 28										com.anurg.innerclass
 
 29										com.anurag.wrapperclasss
+
+30										com.anurag.exceptionhadalling
+
+31										com.anurag.exceptionhadalling.returnstatement
+
+32										com.anurag.exceptionhadalling.throwkeyword
