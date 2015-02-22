@@ -1,0 +1,59 @@
+Thread:-
+          Achieving multiple task simultaneously is called Multitasking.Under Multitasking there
+          are two way:-
+          
+          (1) Multiprocessing 
+          (2) MultiThreading
+          
+   Multiprocessing:-
+   
+              Executing multiple process simultaneous is called multiprocessing ,where every
+              process is independent. 
+              In any operating system processor not process single process continue actually 
+              it shift process to process in some small time period .
+              So Every process is independent  and heavy also this is not a good way to achieve 
+              multitasking.
+              
+              
+  MultiThreading:-
+  
+               Multiple block are executing simultaneously in the same process. And Each block 
+               of program is called thread.
+               So multiple thread is leight weight process.
+               
+               In General Thread are two types:-
+               
+               (1) Demon Thread
+               (2) User Thread
+               
+    DemonThread:-  Demon Thread is a thread which is dependent on its parents thread life .
+                   Whenever Parent leave the execution demon thread also leaving the execution.
+                   In order to achieve any background work (Batch Operation) we can use Demon Thread.
+    
+    UserThread:-  User Thread is not dependent on parent thread . User Thread keep look assign
+                   task to it.
+                   
+                   
+                   Whenever we are running java program java command apply three Thread.
+                   
+                   (1)Thread Schedular
+                   (2)Grabage Collector
+                   (3) Main
+                   
+     Thread Schedular:-  It's allocate CPU time to register thread.
+     
+     Grabage Collector:- It is mainally use to remove unused or abandend objet to memory.
+                         A object that doesn't have any reference in the stack is called abandend
+                         Object.
+                         
+      These both thread are demond Thread.
+       
+      Main Thread:-  Main thread is responsible to use main method. Main Thread is UserThread that is Fore 
+                        Ground thread.
+                     
+    
+     
+                      
+                   
+                      
+    
