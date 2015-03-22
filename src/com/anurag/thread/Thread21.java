@@ -7,7 +7,7 @@ package com.anurag.thread;
  *     Checking  the default property of  Thread
  *
  */
-class Utils
+class Thread21_Utils
 {
 	static void sleep(long millis)
 	{
@@ -34,35 +34,35 @@ class R extends Thread
 {
 	public void run()
 	{
-		Utils.printDetails();
+		Thread21_Utils.printDetails();
 	}
 }
 class S extends Thread
 {
 	public void run()
 	{
-		Utils.printDetails();
+		Thread21_Utils.printDetails();
 	}
 }
 class T extends Thread
 {
 	public void run()
 	{
-		Utils.printDetails();
+		Thread21_Utils.printDetails();
 	}
 }
 public class Thread21 
 {
 	public static void main(String[] args) 
 	{
-		Utils.printDetails();
-		Utils.sleep(10000);
+		Thread21_Utils.printDetails();
+		Thread21_Utils.sleep(10000);
 		R r1=new R();
 		r1.start();
-		Utils.sleep(10000);
+		Thread21_Utils.sleep(10000);
 		S s1 =new S();
 		s1.start();
-		Utils.sleep(10000);
+		Thread33_Utils.sleep(10000);
 		T t1 = new T();
 		t1.start();
 		System.out.println("Hello World!");

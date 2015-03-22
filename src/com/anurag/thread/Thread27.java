@@ -75,7 +75,7 @@ public class Thread27
 		Thread27_B b1 = new Thread27_B(s1,s2);
 		a1.start();
 		b1.start();
-		Utils.sleep(1000);
+		Thread33_Utils.sleep(1000);
         System.out.println(a1.getState());
         System.out.println(b1.getState());
 		ThreadMXBean mx =ManagementFactory.getThreadMXBean();

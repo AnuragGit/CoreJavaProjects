@@ -1,5 +1,18 @@
 package com.anurag.thread;
-//Interthread Communication 
+/**
+ * @author Anurag
+ *   
+ *   Concept:-
+ *          (1) If any thread calling the synchronize method it must have the object lock of current thread
+ *          (2) If at all thread is going to wating stage by calling the wait method then object need to 
+ *          release  the lock.
+ *          (3) notify() method select the randomly wait thread and release the waiting position 
+ *             of one thread.
+ *          (4) notifyAll() method release all the waited thread.
+ *          
+ *          (5) Wait ,notify , notifyAll()  these method available on Object class.
+ *        
+ */
 class Thread28_Share
 {
 	synchronized void test1()
@@ -7,7 +20,7 @@ class Thread28_Share
 		try
 		{
 			wait();
-		}
+		}                                                                                                                    
 		catch (InterruptedException  ex)
 		{
 			System.out.println(ex);
@@ -51,10 +64,20 @@ public class Thread28
 			System.out.println(ex);
 		}
 	
-		a2.test2();
-		//a2.test2(); it is not relase the wait() method because by a1
+		a1.test2();
+		//a2.test2(); //it is not relase the wait() method because by a1
 		// object lock wait () method was called so only
 		// a1 object able to  the release () the wait through notify() method. 
 		System.out.println("Hello World!");
 	}
 }
+
+/*
+Output:-
+
+started
+started
+Hello World!
+end
+end
+*/

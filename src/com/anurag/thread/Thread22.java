@@ -13,14 +13,14 @@ public class Thread22
 	{
 		Thread t= Thread.currentThread();
 		t.setPriority(7);
-		Utils.printDetails();
-		Utils.sleep(10000);
+		Thread21_Utils.printDetails();
+		Thread21_Utils.sleep(10000);
 		R r1=new R();
 		r1.start();
-		Utils.sleep(10000);
+		Thread21_Utils.sleep(10000);
 		S s1 =new S();
 		s1.start();
-		Utils.sleep(10000);
+		Thread21_Utils.sleep(10000);
 		T t1 = new T();
 		t1.start();
 		System.out.println("Hello World!");
