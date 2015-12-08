@@ -1,0 +1,13 @@
+ Object Class:-
+ 
+           It is super most class of the all the classes. It is available in java.lang.package.Object class
+           contain several method.
+           
+           public java.lang.String toString();
+           public boolean equals(java.lang.object);
+           public native int hashcode();
+           protected void finalize();
+           public final native java.lang.Class getClass();
+           
+           
+     
