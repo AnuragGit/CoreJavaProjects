@@ -5,7 +5,7 @@ package com.anurag.object;
  */
 class Object6_F
 {
-	int i;
+	int i;  
 	Object6_F(int i)
 	{
 		this.i=i;
@@ -14,7 +14,12 @@ class Object6_F
 	
 	public boolean equals(Object obj)
 	{
-		return i==((Object6_F)obj).i;
+		
+		     Object6_F f= (Object6_F) obj;
+		     return i==f.i;
+		 
+		
+		//return i==((Object6_F)obj).i; // one line syntax
 	}
 }
 public class Object6 
@@ -35,3 +40,14 @@ public class Object6
 		System.out.println("Hello World!");
 	}
 }
+/*
+Output:-
+
+false
+false
+true
+---------------
+true
+true
+true
+Hello World!*/
