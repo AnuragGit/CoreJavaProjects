@@ -7,9 +7,6 @@ package com.anurag.object;
 class Object5_E
 {
 	int i,j;
-	Object5_E(){
-		
-	}
 	Object5_E(int i,int j)
 	{
 		this.i=i;
