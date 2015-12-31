@@ -1,0 +1,40 @@
+Cloning Operation:- 
+=====================
+           Cloning operation is a one of the unsecure  operation so 
+    By default runtime environment not allow to do unsecure operation.
+    In order to do the unsecured operation we require a mark . The mark can be provide through
+    one of the marker interface.
+    
+    Signature of clone method:-
+    
+                   protected Object clone throws CloneNotSupportedException
+                   
+ 1. It is a protected so we can use only the same class that is inherited class.
+ 2. DownCasting require.
+ 3. It is throw one of the Checked exception.
+ 4. To make duplicate object clonable doesn't have even any single method.
+ 
+ 
+ Shallow Copy and Deep Copy:-
+ =============================
+ 
+      Deep Copy :-
+      =============
+       So changes in the original object is not effecting to the clone 
+      Object , so both are 100 % disjoints and This operation is called Deep Copy.
+      
+      If attributes are primitive or immutable objects then clone do deep copy operation
+      
+      Shallow Copy :-
+      ===============
+            Any mutable and Derived Data type except  Wrapper Class clone method 
+            perform shallow copy.Shallow means not 100% disjoint.  
+                       
+      
+                
+                       
+            
+      
+      
+ 
+     

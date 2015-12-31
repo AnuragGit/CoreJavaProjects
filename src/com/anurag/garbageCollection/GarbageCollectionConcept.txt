@@ -1,0 +1,23 @@
+finalize() method :-
+------------------------
+        protected void finalize() ;
+        
+  1.  This method is calling by garbage collector whenever object is removing from memory.
+  
+  2.  All abandand object are eligible for garbage collector . If Object doesn't have any 
+      reference in memory that object is known as abandand object.
+      
+  3.  Whenever GC is calling to finalize() method then only abandand object is removing from
+      memory. If we will call finalize() method then it won't remove.
+      
+  4. GC call finalize() method maximum only once it can be zero time but not more than one time.
+  
+  5. GC is Demon thread so it has very less priority .
+  
+  6. There are two way to call GC Explicit way
+  
+        a. System.gc();
+        b. Runtime.getRuntime().gc();
+        
+    But there is no guarantee to GC call will occurs.
+    
