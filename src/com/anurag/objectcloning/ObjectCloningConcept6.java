@@ -3,6 +3,15 @@ package com.anurag.objectcloning;
 import java.util.HashMap;
 import java.util.Iterator;
 
+/**
+ * 
+ * @author Anurag 
+ * 
+ *   Concept:- This program again will show Deep copy Operations.
+ *   
+ *
+ */
+
 public class ObjectCloningConcept6 implements Cloneable{
 
 	private int id;
@@ -74,3 +83,13 @@ public class ObjectCloningConcept6 implements Cloneable{
 
 	}
 }
+
+/**
+ *   Output:
+ */
+/*
+invoking overridden clone method
+ct1 and ct2 HashMap == test: false
+ct2 props:{3=third, 2=second, 1=first}
+ct2 name:first
+   */
