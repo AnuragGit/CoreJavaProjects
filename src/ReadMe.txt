@@ -77,3 +77,5 @@ index                                      package
 37										com.anurag.garbageCollection
 
 38										com.anurag.refelectionAPI
+
+39									    com.anurag.string

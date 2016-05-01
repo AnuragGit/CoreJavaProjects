@@ -1,0 +1,86 @@
+String class Concept:-
+=========================
+
+  To represent multiple character there are different way
+        (1) Character Array
+        (2) By using String Object                                      
+        (3) By using String Buffer Object
+        (4) By using String Builder Object
+        
+  To represent through character array is little difficult . The best way is String object or 
+  String Buffer or String Builder.
+  
+    (1) String Object are immutable.
+    (2) String Buffer and String Builder are mutable.
+    (3) String , StringBuffer and StringBuilder are all three available on java.lang package.
+    (4) All three are final classes.
+    (5) In All three toString() method got override.
+    (6) In only String class hashcode() and equals() method got override.
+    (7) String class implementing comparable interface because of this String object can be Sorted.
+    (8) StringBuffer and StringBuilder are not implementing comparable interface.
+    (9) All three classes implementing Serializable interface.
+
+    
+    
+  String Constant Pool:-
+  ========================
+  It is a special place where the collection of references to string objects are placed. 
+    If we declare any string something like ::
+    String s1="abc";
+    Then it will be stored in constant pool 
+    now if again we will declare String s2="abc";
+    Then it will be first search like if this constant already available on pool or not ,if it found
+    then same "abc" will get assign back with new reference variable S2.
+    
+  Non Constant pool:-
+  ===================
+  
+  If we declare variable like 
+  
+  String s= new String("abc");
+  
+  then it will always store in heap and heap is non constant pool.
+  
+ The Difference between  StringBuffer and String   :-
+ ===================================================
+ 
+ (1) In String class toString and equals and hashcode method got override. 
+     But in case of StringBuffer only toString method got override.
+     
+ (2) Hash related container can be identify the duplicate in case of String Objects.
+     But in case of StringBuffer object hashrealted container  can not identify duplicate
+     because hashcode and equals method not overried here.
+     
+ (3) String Object are immutable , we can not change once it created.
+     But StringBuffer Object are mutable we can change the content after creation also.
+     
+ (4) String class is implementing comparable interface ,So we can sort String object based
+     on the content.
+     But StringBuffer not implemented comparable interface so we can not sort StringBuffer 
+     Object.
+     
+  (5) String class not managing any buffer but StringBuilder is managing the buffer internally.
+  
+  (6) String buffer is not synchronized one .
+      But StringBuilder is Synchronized one.
+      
+   (7) Inside the String class reverse and delete method not avilable.
+       But StringBuffer having reverse and delete method.
+       
+       
+   The Difference between StringBuffer and StringBuilder:-
+   ========================================================
+   
+   (1) String Buffer is Synchronized 
+       But StringBuilder is not Synchronized.
+       
+    (2) StringBuffer is introduce in jdk 1.0
+         But String Builder is introduce in jdk 1.5
+         
+     (3) StringBuffer performance is low but accuracy is high.
+         But StringBuilder performance is high but accuracy is low.
+ 
+    
+  
+            
+  
