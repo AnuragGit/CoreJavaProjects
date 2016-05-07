@@ -1,4 +1,10 @@
 package com.anurag.array.multidimentional;
+/**
+ * @author Anurag
+ *    Concept:- This program is showing how we can initialize two dimensional array
+ *               at the time of declarations.
+ *
+ */
 class Multidimentional28 
 {
 	public static void main(String[] args) 
@@ -21,3 +27,21 @@ class Multidimentional28
 		System.out.println("Hello World!");
 	}
 }
+
+/*Output:-
+
+1
+2
+1
+3
+4
+5
+10
+30
+50
+------------------
+1 2 
+1 
+
+3 4 5 10 30 50 
+Hello World!*/

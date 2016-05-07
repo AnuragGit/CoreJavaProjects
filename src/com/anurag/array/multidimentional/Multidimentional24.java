@@ -1,6 +1,11 @@
 package com.anurag.array.multidimentional;
-//Two Dimensional Array
-public class	Multidimentional24  
+/**
+ * @author Anurag
+ *   Concept:- Array of array is called two dimensional array. If two s 
+ *             array is storing in another array then it is called three dimensional array.
+ *              
+ */
+public class Multidimentional24  
 {
 	public static void main(String[] args) 
 	{
@@ -15,13 +20,41 @@ public class	Multidimentional24
 		z[1]=6;
 
 		int a[][]= {x,y,z};
-	    for(int []c:a)
-			for(int i:c)
-			System.out.println(i);
+	    for(int []c:a){
+	    	for(int i:c){
+	    		System.out.print(i +" ");
+	    	}
+	    	System.out.println("\n====");
+				
+	    }
+			
 		System.out.println("----------------------");
-		for(int i=0;i<a.length;i++)
+		for(int i=0;i<a.length;i++){
 			for(int j=0;j<a[i].length;j++)
-			     System.out.println(a[i][j]);
-		System.out.println("Hello World!");
+			     System.out.print(a[i][j] +" ");
+			System.out.println("\n====");
+		}
+			
 	}
 }
+
+/*
+Output:-
+
+1 2 
+====
+3 4 
+====
+5 6 
+====
+----------------------
+1 2 
+====
+3 4 
+====
+5 6 
+====
+
+
+
+*/

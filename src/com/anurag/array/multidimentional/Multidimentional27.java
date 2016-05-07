@@ -1,4 +1,8 @@
 package com.anurag.array.multidimentional;
+/**
+ * @author Anurag
+ *        Concept:- This program is still having default initialization.
+ */
 class Multidimentional27 
 {
 	public static void main(String[] args) 
@@ -12,3 +16,8 @@ class Multidimentional27
 		System.out.println("Hello World!");
 	}
 }
+/*
+Output:-
+0
+Hello World!
+*/

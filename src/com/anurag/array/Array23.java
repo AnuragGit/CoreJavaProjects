@@ -1,10 +1,16 @@
 package com.anurag.array;
-//Examaple that show the person class data in
-// sort order by different attribute by using comparator interface
-//Small difference in Manager22 in Data Type double- Double
-// Becacuse we are using compareTo() method for comparing weight.
+
 import java.util.Arrays;
 import java.util.Comparator;
+/**
+ * @author Anurag
+ * 
+ *    Concept:- 
+ *    This program is showing the person class data in
+       sort order by different attribute by using comparator interface
+       Small difference in Array22 in Data Type double- Double because we are using compareTo() method for comparing weight.
+ *
+ */
 class Person
 {
 	String name;
@@ -67,11 +73,28 @@ public class Array23
 
 		System.out.println(Arrays.toString(x));
 		Arrays.sort(x,new Person.SortBasedOnName());
+		System.out.println("Sort by Name::");
 		System.out.println(Arrays.toString(x));
 		Arrays.sort(x,new Person.SortBasedOnAge());
+		System.out.println("Sort by Age::");
 		System.out.println(Arrays.toString(x));
 		Arrays.sort(x,new Person.SortBasedOnWeight());
+		System.out.println("Sort by Weight::");
 		System.out.println(Arrays.toString(x));
 		System.out.println("Hello World!");
 	}
 }
+/*
+Output:-
+
+[Anurag,24,55.5, Iqbal,25,65.5, Vishnu,24,58.5, vijay,26,59.5, suresh,28,90.5]
+Sort by Name::
+[Anurag,24,55.5, Iqbal,25,65.5, Vishnu,24,58.5, suresh,28,90.5, vijay,26,59.5]
+Sort by Age::
+[Anurag,24,55.5, Vishnu,24,58.5, Iqbal,25,65.5, vijay,26,59.5, suresh,28,90.5]
+Sort by Weight::
+[Anurag,24,55.5, Vishnu,24,58.5, vijay,26,59.5, Iqbal,25,65.5, suresh,28,90.5]
+Hello World!
+
+
+*/

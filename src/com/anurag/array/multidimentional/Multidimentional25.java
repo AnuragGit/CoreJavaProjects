@@ -1,6 +1,13 @@
 package com.anurag.array.multidimentional;
-// Some checking purpose
-class  Multidimentional25
+/**
+ * @author Anurag
+ *       Concept:- Two dimensional also initialize default value.
+ *                  int [4][2]
+ *                  
+ *                   [4]--- Outer array (Second dimension)
+ *                   [2]--- Inner array (First dimension)
+ */
+public class  Multidimentional25
 {
 	public static void main(String[] args) 
 	{
@@ -9,3 +16,10 @@ class  Multidimentional25
 		System.out.println("Hello World!");
 	}
 }
+/*
+Output:-
+
+0
+Hello World!
+
+*/
